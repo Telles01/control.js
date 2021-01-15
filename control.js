@@ -5,3 +5,13 @@ const dummyTransactions = [
   { id: 4, name: 'violao', amount: 150 }
   ]
 
+
+  const addTrasactionIntoDom = transaction => {
+    const operator = transaction.amount < 0 ? '-' : '+'
+    console.log(value)
+
+    //<li class="minus">
+      //Salário <span>-$400</span><button class= "delete-btn"></button>
+    //</li>
+  }
+
