@@ -8,6 +8,7 @@ const dummyTransactions = [
 
   const addTrasactionIntoDom = transaction => {
     const operator = transaction.amount < 0 ? '-' : '+'
+    const CSSClass = transaction.amount < 0 ? 'minus' : 'plus'
     const li = document.createElement('li')
 
     //<li class="minus">
