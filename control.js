@@ -6,14 +6,4 @@ const dummyTransactions = [
   ]
 
 
-  const addTrasactionIntoDom = transaction => {
-    const operator = transaction.amount < 0 ? '-' : '+'
-    const CSSClass = transaction.amount < 0 ? 'minus' : 'plus'
-    const li = document.createElement('li')
-
-    //<li class="minus">
-      //Salário <span>-$400</span><button class= "delete-btn"></button>
-    //</li>
-  }
-
-  addTrasactionIntoDom(dummyTransactions[0])
+  
