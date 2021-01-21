@@ -6,7 +6,11 @@ const dummyTransactions = [
 ]
 
 const addTrasactionIntoDom = trasaction => {
-  
+  const operator = trasaction.amount < 0 ? '-' : '+'
+
+  {/*<li class="minus">
+    Salário <span>-$400</span><button class="delete-btn">x</button>
+  </li> -->}
 }
 
 
