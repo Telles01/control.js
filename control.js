@@ -7,7 +7,8 @@ const dummyTransactions = [
 
 const addTrasactionIntoDom = trasaction => {
   const operator = trasaction.amount < 0 ? '-' : '+'
-  const CSSClass = trasaction.amount < 0
+  const CSSClass = trasaction.amount < 0 ? 'minus' : 'plus'
+  const li = document.createElement('li')
   console.log(operator)
 
   {/*<li class="minus">
