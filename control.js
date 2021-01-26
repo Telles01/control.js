@@ -11,6 +11,9 @@ const addTrasactionIntoDom = trasaction => {
   const li = document.createElement('li')
   console.log(operator)
 
+  li.classList.add(CSSClass)
+  console.log(li)
+
   {/*<li class="minus">
     Salário <span>-$400</span><button class="delete-btn">x</button>
 </li> -->*/}
