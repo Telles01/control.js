@@ -12,6 +12,9 @@ const addTrasactionIntoDom = trasaction => {
   console.log(operator)
 
   li.classList.add(CSSClass)
+  li.innerHTML = `
+  Salário <span>-$400</span><button class="delete-btn">x</button>
+  `
   console.log(li)
 
   {/*<li class="minus">
