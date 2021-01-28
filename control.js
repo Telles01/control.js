@@ -8,18 +8,16 @@ const dummyTransactions = [
 const addTrasactionIntoDom = trasaction => {
   const operator = trasaction.amount < 0 ? '-' : '+'
   const CSSClass = trasaction.amount < 0 ? 'minus' : 'plus'
+  const amountWithoutOperator = Math.abs(trasaction.amount)
   const li = document.createElement('li')
-  console.log(operator)
+  
 
   li.classList.add(CSSClass)
   li.innerHTML = `
-  Salário <span>-$400</span><button class="delete-btn">x</button>
+  ${trasaction.name}<span>${operator} R$ ${Math.abs(trasaction.amount)}</span><button class="delete-btn">x</button>
   `
+  
   console.log(li)
-
-  {/*<li class="minus">
-    Salário <span>-$400</span><button class="delete-btn">x</button>
-</li> -->*/}
 }
 
 addTrasactionIntoDom(dummyTransactions[0])
