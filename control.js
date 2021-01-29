@@ -17,7 +17,7 @@ const addTrasactionIntoDom = trasaction => {
   ${trasaction.name}<span>${operator} R$ ${Math.abs(trasaction.amount)}</span><button class="delete-btn">x</button>
   `
   
-  console.log(li)
+  
 }
 
 addTrasactionIntoDom(dummyTransactions[0])
