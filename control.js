@@ -18,6 +18,7 @@ const addTrasactionIntoDom = trasaction => {
   `
   
   
+  li.classList.add(CSSClass)
 }
 
 
