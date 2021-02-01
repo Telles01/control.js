@@ -20,7 +20,7 @@ const addTrasactionIntoDom = trasaction => {
   
 }
 
-addTrasactionIntoDom(dummyTransactions[0])
+
 
 
   
