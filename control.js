@@ -9,7 +9,7 @@ const addTrasactionIntoDom = trasaction => {
   const operator = trasaction.amount < 0 ? '-' : '+'
   const CSSClass = trasaction.amount < 0 ? 'minus' : 'plus'
   const amountWithoutOperator = Math.abs(trasaction.amount)
-  const li = document.createElement('li')
+  
   
 
   li.classList.add(CSSClass)
