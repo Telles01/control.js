@@ -5,7 +5,6 @@ const dummyTransactions = [
   {  id: 4, name: 'violao', amount: 150 }
 ]
 
-const addTrasactionIntoDom = trasaction => {
 
   
   
