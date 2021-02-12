@@ -11,7 +11,6 @@ const dummyTransactions = [
   
   
 
-  li.classList.add(CSSClass)
   li.innerHTML = `
   ${trasaction.name}<span>${operator} R$ ${Math.abs(trasaction.amount)}</span><button class="delete-btn">x</button>
   `
