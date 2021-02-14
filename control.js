@@ -4,6 +4,7 @@ const dummyTransactions = [
   {  id: 3, name: 'Torta de Frango', amount: -10 }
   {  id: 4, name: 'violao', amount: 150 }
   {  id: 5, name: 'ice cream', amount: 150 }
+  {  id: 6, name: 'ice cream', amount: 200 }
 ]
 
 
