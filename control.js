@@ -5,6 +5,7 @@ const dummyTransactions = [
   {  id: 4, name: 'guitar', amount: 150 }
   {  id: 5, name: 'ice cream', amount: 150 }
   {  id: 6, name: 'sofa', amount: 150 }
+  {  id: 7, name: 'chair', amount: 200 }
  
   
   
