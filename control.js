@@ -5,13 +5,14 @@ const dummyTransactions = [
   {  id: 4, name: 'guitar', amount: 150 }
   {  id: 5, name: 'ice cream', amount: 150 }
   
-
-  
-  
- 
-  
-  
 ]
+
+const addTransactionIntoDom = transaction => {
+  const operator = transaction.amount < 0 ? '-' : '+'
+  const CSSClass = transaction.amount < 0 ? 'minus' : 'plus'
+  const amountWithoutOpertor = Math.abs(transaction.amount)
+  const li = document.createElement('li') 
+}
 
 
   
